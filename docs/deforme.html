@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>DeforMe: Visualization of Tangential Surface Deformation using Invisible Textures</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+	<!-- WEB ICON -->
+    <link rel="PUNPONGSANON" href="https://punpongsanon.info/images/icon/web.ico" type="image/x-icon" />
+
+	<!-- Bootstrap -->
+	<link href="https://punpongsanon.info/css/bootstrap.css" rel="stylesheet">
+	<link href="https://punpongsanon.info/css/page.css" rel="stylesheet">
+	
+	<!-- JQuery -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	
+	<!-- Lightbox -->
+	<link href="https://punpongsanon.info/css/lightbox.css" rel="stylesheet">
+
+	<!-- Get Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Barlow' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
+	
+	<!-- Google Analytic -->
+	<script type="text/javascript" src="https://punpongsanon.info/js/analytics.js">
+	</script>
+</head>
+
+<body>
+<header class="main_header">
+	<!-- to be filled by javascript, see header.html -->
+</header>
+
+<div class="container" style="padding-top: 100px;">
+	<div class="row">
+	<!-- Publication details -->
+	<div class="col-md-4" style="text-align: left;">
+		</br>
+		</br>
+		<span class="medium-headline">
+		A project funding provided by:
+		</span>
+		</br>
+		</br>
+		<a href="http://www.jsps.go.jp/english/" target="_blank">
+		<img src="images/logo/grant-jsps-kakenhi.jpg" alt="grant-jsps-kakenhi" width="255"/>
+		</a>
+		</br>
+		</br>
+		<span class="medium-headline">
+		Publication
+		</span>
+		</br>
+		</br>
+		<a class="no-underline-highlight-link" href="https://punpongsanon.info/" target="_blank">P. Punpongsanon</a>, 
+		<a class="no-underline-highlight-link" href="http://daisukeiwai.org/" target="_blank">D. Iwai</a>, and K. Sato.
+		</br>
+		Projection-based Visualization of Tangential Deformation of Nonrigid Surface by Deformation Estimation Using Infrared Texture.
+		</br>
+		Springer VR &#8217;15.
+		</br>
+		</br>
+		<a href="http://dx.doi.org/10.1007/s10055-014-0256-y" class="btn btn-doi" alt="doi" target="_blank">DOI</a> 
+		&nbsp; &nbsp; 
+		<a href="https://www.dropbox.com/s/16soil7gjw9msxp/VR_2014_DeforMe_punpongsanon.pdf?dl=0" class="btn btn-pdf" alt="pdf" target="_blank">Paper</a> 
+		&nbsp; &nbsp; 
+		</br>
+		</br>
+		
+		<a class="no-underline-highlight-link" href="https://punpongsanon.info/" target="_blank">P. Punpongsanon</a>, 
+		<a class="no-underline-highlight-link" href="http://daisukeiwai.org/" target="_blank">D. Iwai</a>, and K. Sato.
+		</br>
+		DeforMe: Visualization of Tangential Surface Deformation
+		</br>
+		using Invisible Textures.
+		</br>
+		ACM SIGGRAPH Asia &#8217;13 (e-tech).
+		</br>
+		</br>
+		<a href="http://dx.doi.org/10.1145/2542284.2542292" class="btn btn-doi" alt="doi" target="_blank">DOI</a> 
+		&nbsp; &nbsp; 
+		<a href="https://www.dropbox.com/s/7tdfrgqfz6vtfhn/SA_2013_DeforMe_punpongsanon.pdf?dl=0" class="btn btn-pdf" alt="pdf" target="_blank">Paper</a> 
+		&nbsp; &nbsp; 
+		</br>
+		</br>
+
+		<a class="no-underline-highlight-link" href="https://punpongsanon.info/" target="_blank">P. Punpongsanon</a>, 
+		<a class="no-underline-highlight-link" href="http://daisukeiwai.org/" target="_blank">D. Iwai</a>, and K. Sato.
+		</br>
+		Projection-based Mixed Reality for Deformable Surfaces.
+		</br>
+		KJMR &#8217;13 
+		<span class="project-award-note">Best Presentation Award</span>
+		</br>
+		</br>		
+	</div>
+	
+	<!-- Project information -->
+	<div class="col-md-8" style="text-align: justify;">
+		<h3 class="big-headline">
+		DeforMe: 
+		</br>
+		Visualization of Tangential Surface Deformation using Invisible Textures
+		</h3>
+		
+		</br>
+		<iframe width="100%" height="420" src="https://www.youtube.com/embed/i3U93QTfzlg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</br>
+		</br>		
+        We propose a projection-based mixed reality system that visualizes the tangential deformation of a nonrigid surface by superimposing graphics directly onto the surface by projected imagery. The superimposed graphics is deformed according to the surface deformation. To achieve this goal, we develop a computer vision technique that estimates the tangential deformation by measuring the frame-by-frame movement of an infrared (IR) texture on the surface. 
+		IR ink, which can be captured by an IR camera under IR light but is invisible to the human eye, is used to provide surface texture. 
+        Consequently, the textures do not degrade the image quality of the augmented graphics. The proposed technique measures surface motion between two 
+        successive frames individually. Therefore, it does not suffer 
+        from occlusions caused by interactions and allows various interactions (e.g., touching, pushing, pulling, and pinching). The moving least squares (MLS) technique interpolates the measured result to estimate denser surface deformation. The proposed method relies only on the apparent motion measurement; thus, it is not limited to a specific deformation characteristic, but is flexible for multiple deformable materials, such as viscoelastic and elastic materials.
+        Experiments confirm that the proposed method can visualize surface deformation of various materials by projected illumination even when a user's hand occludes the surface from the camera.
+		</br>	
+		</br>	
+		<img src="images/deforme-deformation-projection.png" alt="deforme-deformation-projection" width="100%" style="padding-bottom:0px; margin-bottom:10px"/>
+		</br>
+		<b>
+		Figure 1: 
+		With DeforMe, projected graphics are realistically deformed to match the deformed surfaces: (a) infrared-based textures are used to estimate the deformation of the surfaces, (b)(c) and (d) various deformable surfaces can be used with the system, (e) DeforMe can also be used for the case of a self-dilating object. 
+		</b> 
+		</br>
+		</br>
+	</div>
+	</div>
+</div>
+
+<footer class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<p class="site-info">
+					© Since 2011, Parinya Punpongsanon.
+				</p>
+			</div>
+			<div class="col-sm-12">
+			<p class="footer-disclaimer">
+			Documents protected by 
+			<a rel="license" href="https://www.ieee.org/publications_standards/publications/rights/copyrightpolicy.html" target="_blank">IEEE</a> 
+			and 
+			<a rel="license" href="http://www.acm.org/publications/policies/copyright-statement" target="_blank">ACM</a> 
+			copyrights, Code and design copyrights under  
+			<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">Creative Commons attribute</a></p>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<!-- Bootstrap --> 
+<script type="text/javascript" src="https://punpongsanon.info/js/bootstrap.min.js"></script>
+<!-- header -->
+<script type="text/javascript" src="https://punpongsanon.info/js/loadheader.js"></script> 
+<!-- lightbox -->
+<script type="text/javascript" src="https://punpongsanon.info/js/lightbox.js"></script>
+</body>
+</html>

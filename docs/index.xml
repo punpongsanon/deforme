@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DeforMe: Visualization of Tangential Surface Deformation using Invisible Textures</title>
+    <link>https://punpongsanon.info/deforme/</link>
+      <atom:link href="https://punpongsanon.info/deforme/index.xml" rel="self" type="application/rss+xml" />
+    <description>DeforMe: Visualization of Tangential Surface Deformation using Invisible Textures</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2022 © Parinya Punpongsanon</copyright>
+    <image>
+      <url>https://punpongsanon.info/deforme/images/icon_huad5af7e84c4e18103c227a9d00a12466_8031_512x512_fill_lanczos_center_3.png</url>
+      <title>DeforMe: Visualization of Tangential Surface Deformation using Invisible Textures</title>
+      <link>https://punpongsanon.info/deforme/</link>
+    </image>
+    
+  </channel>
+</rss>

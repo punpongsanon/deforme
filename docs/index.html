@@ -1,0 +1,771 @@
+<!DOCTYPE html><html lang="en-us" >
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.8.0">
+
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+  
+    
+  
+  <meta name="description" content="">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://punpongsanon.info/deforme/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#007BC6">
+  
+
+  
+  
+
+  
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+
+  
+
+  
+  
+  
+    
+      
+      
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+    
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/deforme/css/academic.css">
+
+  
+
+
+
+
+  
+
+
+  
+  
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  
+
+  
+  <link rel="alternate" href="/deforme/index.xml" type="application/rss+xml" title="DeforMe: Visualization of Tangential Surface Deformation using Invisible Textures">
+  
+
+  <link rel="manifest" href="/deforme/index.webmanifest">
+  <link rel="icon" type="image/png" href="/deforme/images/icon_huad5af7e84c4e18103c227a9d00a12466_8031_32x32_fill_lanczos_center_3.png">
+  <link rel="apple-touch-icon" type="image/png" href="/deforme/images/icon_huad5af7e84c4e18103c227a9d00a12466_8031_192x192_fill_lanczos_center_3.png">
+
+  <link rel="canonical" href="https://punpongsanon.info/deforme/">
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="og:site_name" content="DeforMe: Visualization of Tangential Surface Deformation using Invisible Textures">
+  <meta property="og:url" content="https://punpongsanon.info/deforme/">
+  <meta property="og:title" content="DeforMe: Visualization of Tangential Surface Deformation using Invisible Textures">
+  <meta property="og:description" content=""><meta property="og:image" content="https://punpongsanon.info/deforme/images/icon_huad5af7e84c4e18103c227a9d00a12466_8031_512x512_fill_lanczos_center_3.png">
+  <meta property="twitter:image" content="https://punpongsanon.info/deforme/images/icon_huad5af7e84c4e18103c227a9d00a12466_8031_512x512_fill_lanczos_center_3.png"><meta property="og:locale" content="en-us">
+  
+    
+  
+
+  
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite","url": "https://punpongsanon.info/deforme/"
+}
+</script>
+
+
+  
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Project",
+  "@id": "https://punpongsanon.info/deforme/",
+  "name": "DeforMe: Visualization of Tangential Surface Deformation using Invisible Textures",
+  "logo": "https://punpongsanon.info/deforme/images/icon_huad5af7e84c4e18103c227a9d00a12466_8031_192x192_fill_lanczos_center_3.png",
+  
+  
+  
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "450 Serra Mall",
+    "addressLocality": "Stanford",
+    "addressRegion": "CA",
+    "postalCode": "94305",
+    "addressCountry": "US"
+  },
+  
+  
+  "url": "https://punpongsanon.info/deforme/"
+}
+</script>
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>DeforMe: Visualization of Tangential Surface Deformation using Invisible Textures</title>
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#navbar-main" class=" ">
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">DeforMe: Visualization of Tangential Surface Deformation using Invisible Textures</a>
+    </div>
+    
+
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">DeforMe: Visualization of Tangential Surface Deformation using Invisible Textures</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+
+      
+
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+<span class="js-widget-page d-none"></span>
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  <section id="information" class="home-section wg-information   "  >
+    <div class="container">
+      
+
+
+
+<div class="row"> 
+  <div class="col-12 col-lg-3">
+    <div class="row experience">
+      <div class="col py-2">
+        <div class="card">
+		  
+          <div class="card-body">
+			
+			<h4 class="card-title exp-title text-muted mt-0 mb-1">In collaboration between</h4>
+			
+			
+			
+			
+			<a href="https://www.osaka-u.ac.jp/" target="_blank" rel="noopener">
+			<img src="media/img/collaboration/osaka-university.png" alt="Osaka University" width="254px" />
+			</a>
+		    
+          </div>
+		  
+		  
+          <div class="card-body">
+			
+			<h4 class="card-title exp-title text-muted mt-0 mb-1">Research Funding by</h4>
+					
+			
+			
+			
+			<a href="https://www.jsps.go.jp/english/" target="_blank" rel="noopener">
+			<img src="media/img/grants/jsps-kakenhi.jpg" alt="media/img/grants/jsps-kakenhi.jpg" width="254px"/>
+			</a>
+		    
+          </div>
+	
+		  
+		  <div class="card-body">
+			<div class="experience-card-text">
+				<h4 class="card-title exp-title text-muted mt-0 mb-1">Team</h4>
+				
+				
+				<a class="no-underline-link" href="https://punpongsanon.info/" target="_blank" rel="noopener">
+				Parinya Punpongsanon
+				</a>(<a class="no-underline-link" href="https://www.osaka-u.ac.jp/" target="_blank" rel="noopener">Osaka University</a>)<br /> 
+				<a class="no-underline-link" href="http://daisukeiwai.org/" target="_blank" rel="noopener">
+				‪Daisuke Iwai
+				</a>(<a class="no-underline-link" href="https://www.osaka-u.ac.jp/" target="_blank" rel="noopener">Osaka University</a>)<br /> 
+				<a class="no-underline-link" href="https://researchmap.jp/read0076311" target="_blank" rel="noopener">
+				‪Kosuke Sato
+				</a>(<a class="no-underline-link" href="https://www.osaka-u.ac.jp/" target="_blank" rel="noopener">Osaka University</a>)<br /> 
+				
+				
+			</div>
+		  </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-12 col-lg-9 experience-details">
+	<h3>DeforMe: Visualization of Tangential Surface Deformation using Invisible Textures</h3>
+    
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/i3U93QTfzlg" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure id="figure-figure-1-with-deforme-projected-graphics-are-realistically-deformed-to-match-the-deformed-surfaces-a-infrared-based-textures-are-used-to-estimate-the-deformation-of-the-surfaces-bc-and-d-various-deformable-surfaces-can-be-used-with-the-system-e-deforme-can-also-be-used-for-the-case-of-a-self-dilating-object">
+
+
+  <a data-fancybox="" href="siggraphasia-13-deforme-projection-mapping-on-elastic-objects-results.png" data-caption="Figure 1: With DeforMe, projected graphics are realistically deformed to match the deformed surfaces: (a) infrared-based textures are used to estimate the deformation of the surfaces, (b)(c) and (d) various deformable surfaces can be used with the system, (e) DeforMe can also be used for the case of a self-dilating object.">
+
+
+  <img src="siggraphasia-13-deforme-projection-mapping-on-elastic-objects-results.png" alt=""  >
+</a>
+
+
+  
+  
+  <figcaption>
+    Figure 1: With DeforMe, projected graphics are realistically deformed to match the deformed surfaces: (a) infrared-based textures are used to estimate the deformation of the surfaces, (b)(c) and (d) various deformable surfaces can be used with the system, (e) DeforMe can also be used for the case of a self-dilating object.
+  </figcaption>
+
+
+</figure>
+
+<h4 id="abstract">Abstract</h4>
+<p>We propose a projection-based mixed reality system that visualizes the tangential deformation of a nonrigid surface by superimposing graphics directly onto the surface by projected imagery. The superimposed graphics is deformed according to the surface deformation. To achieve this goal, we develop a computer vision technique that estimates the tangential deformation by measuring the frame-by-frame movement of an infrared (IR) texture on the surface. IR ink, which can be captured by an IR camera under IR light but is invisible to the human eye, is used to provide surface texture. Consequently, the textures do not degrade the image quality of the augmented graphics. The proposed technique measures surface motion between two successive frames individually. Therefore, it does not suffer from occlusions caused by interactions and allows various interactions (e.g., touching, pushing, pulling, and pinching). The moving least squares (MLS) technique interpolates the measured result to estimate denser surface deformation. The proposed method relies only on the apparent motion measurement; thus, it is not limited to a specific deformation characteristic, but is flexible for multiple deformable materials, such as viscoelastic and elastic materials. Experiments confirm that the proposed method can visualize surface deformation of various materials by projected illumination even when a user&rsquo;s hand occludes the surface from the camera.</p>
+<p>Projection-based mixed reality (MR) refers to techniques in whichcomputer graphics are projected on to real objects, to create a realistic appearance without requiring refabrication or user-worn equip-ment. These techniques allow us to generate the illusion of virtualmodification of the physical surface, and create a realistic repre-sentation of a virtual reality in the real world. Moreover, with aflexible surface (e.g., deformable surfaces, malleable objects), theyallow the user to interact with the projected graphics while obtain-ing tactile feedback. Several investigations have explored meth-ods of projecting graphics on deformable displays or tangible ob-jects, by measuring the surface deformation using, for example, adepth sensor. However, they are not appli-cable to tangential deformations that can appear on a surface in ahorizontal direction during interactions such as touching, pinching,and pulling, even by the force of gravity. To address this limitation, we propose a new projection-based MRsystem to reveal the deformation of the surface as realistically as possible, calledDeforMe. With our system, the projected graphicscan be deformed according to the deformation of the real object. Unlike previous attempts, which utilized the physical characteris-tics of the materials, or depth information, our system has the advantage of performingreal-time estimations of the tangential deformation flows with onlya small number of feature points, and is not limited to the charac-teristics of the physical models. It can, therefore, extend the application field of projection-based MR.</p>
+<h4 id="related-publications">Related Publications</h4>
+<p><strong>Parinya Punpongsanon</strong>, Daisuke Iwai, and Kosuke Sato. 
+Projection-based Visualization of Tangential Deformation of Nonrigid Surface by Deformation Estimation Using Infrared Texture. 
+Virtual Reality, Springer London, Vol. 19(1), pp. 45-56. March 2015.
+
+<a href="https://www.dropbox.com/s/16soil7gjw9msxp/VR_2014_DeforMe_punpongsanon.pdf?dl=0" target="_blank" rel="noopener">
+  <i class="fas fa-file-pdf fa-lg  pr-1 fa-fw"></i></a>
+
+  <i class="fas fa-file-video fa-lg  pr-1 fa-fw"></i>
+
+<a href="http://dx.doi.org/10.1007/s10055-014-0256-y" target="_blank" rel="noopener">
+  <i class="ai ai-doi fa-lg  pr-1 fa-fw"></i></a></p>
+<p><strong>Parinya Punpongsanon</strong>, Daisuke Iwai, and Kosuke Sato. 
+DeforMe: projection-based visualization of deformable surfaces using invisible textures. 
+In Proceedings of <em>ACM SIGGRAPH Asia 2013: Emerging Technologies (e-Tech)</em>. 
+Article 8, Hongkong, China, November 2013.
+<span class="markup-quote"><i class="fas fa-asterisk  pr-1 fa-fw"></i><strong>Demonstration</strong></span>
+
+<a href="https://www.dropbox.com/s/7tdfrgqfz6vtfhn/SA_2013_DeforMe_punpongsanon.pdf?dl=0" target="_blank" rel="noopener">
+  <i class="fas fa-file-pdf fa-lg  pr-1 fa-fw"></i></a>
+
+<a href="https://www.youtube.com/watch?v=i3U93QTfzlg" target="_blank" rel="noopener">
+  <i class="fas fa-file-video fa-lg  pr-1 fa-fw"></i></a>
+
+<a href="https://doi.org/10.1145/2542284.2542292" target="_blank" rel="noopener">
+  <i class="ai ai-doi fa-lg  pr-1 fa-fw"></i></a></p>
+<p><strong>Parinya Punpongsanon</strong>, Daisuke Iwai, and Kosuke Sato. 
+Projection-based Mixed Reality for Deformable Surfaces. 
+Talked in <em>the 6th Korea-Japan Workshop on Mixed Reality (KJMR2013)</em>, Okinawa, Japan, February 2013.
+<span class="markup-quote"><i class="fas fa-award  pr-1 fa-fw"></i><strong>Best Presentation Award</strong></span>
+
+<a href="http://ypcex.naist.jp/kjmr2013/" target="_blank" rel="noopener">
+  <i class="fas fa-external-link-alt fa-lg  pr-1 fa-fw"></i></a></p>
+<p><strong>Parinya Punpongsanon</strong>, Daisuke Iwai, and Kosuke Sato. 
+表面変形のビジュアルトラッキングによる粘弾性曲面上での射影に基づく複合現実感. 
+<em>第88回パターン計測シンポジウム</em>, 計測自動制御学会, 
+ページ 35-40, 2012年12月.
+
+<a href="https://www.dropbox.com/s/au663o44q4kg57v/SICE_2012_DeforMe_punpongsanon.pdf?dl=0" target="_blank" rel="noopener">
+  <i class="fas fa-file-pdf fa-lg  pr-1 fa-fw"></i></a>
+
+<a href="http://jglobal.jst.go.jp/public/20090422/201302272895929403#jgid201302272895929403" target="_blank" rel="noopener">
+  <i class="ai ai-doi fa-lg  pr-1 fa-fw"></i></a></p>
+
+  </div>
+</div>
+
+    </div>
+  </section>
+
+
+
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js" integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/highlight.min.js" integrity="sha512-7t8APmYpzEsZP7CYoA7RfMPV9Bb+PJHa9x2WiUnDXZx3XHveuyWUtvNOexhkierl5flZ3tr92dP1mMS+SGlD+A==" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/languages/r.min.js"></script>
+        
+      
+
+    
+
+    
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    <script>const isSiteThemeDark = false;</script>
+    
+
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    <script>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+          if (!user) {
+            window.netlifyIdentity.on("login", () => {
+              document.location.href = "/admin/";
+            });
+          }
+        });
+      }
+    </script>
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="/deforme/js/academic.min.46984531da5bd62c8f6a469b75786b48.js"></script>
+
+    
+
+
+
+
+
+
+  
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    <i class="far fa-copyright"></i> 2022 © Parinya Punpongsanon &middot; 
+	
+
+    Original Framework by 
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>. 
+	Partially Copyright under <i class="fab fa-creative-commons"></i>
+	<a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener">Creative Commons attribute</a>
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" class="back-to-top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
